@@ -9,6 +9,7 @@ html {
 }
 
 .header-container {
+  padding: 8px 0 16px;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -17,6 +18,34 @@ html {
 .header-container__logo,
 .header-container__text {
   margin: 0 8px;
+}
+
+.dog-breed-selector__container {
+  height: 100vh;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.dog-breed-selector-container__header {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.dog-breed-selector__dropdown,
+.dog-breed-selector__button {
+  display: block;
+  margin: 8px;
+}
+
+.dog-breed-selector__button {
+  background-color: #00c6ff;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 16px 8px;
+  border: none;
+  box-shadow: 0 3px 10px #808080;
 }
 
 /*# sourceMappingURL=app.css.map */

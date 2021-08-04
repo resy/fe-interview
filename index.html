@@ -21,14 +21,28 @@
       <h1 class="header-container__text">Select a Breed</h1>
     </header>
 
-    <div class="Page">
-      <div class="ShowMeABreed">
-        <h1>Ok, but which one?!</h1>
-        <select></select>
-        <img src="" />
-        <button>I don't like that one. Show me another.</button>
+    <section class="dog-breed-selector__container">
+      <div class="dog-breed-selector-container__display-wrapper">
+        <p class="dog-breed-selector-container__header">Ok, but which one?!</p>
+
+        <select
+          class="dog-breed-selector__dropdown"
+          name="dog-breed-selector"
+          id="breed-selector"
+          aria-label="Choose a breed"
+        >
+          <option value="" disabled>Select a breed</option>
+          <option value="one">one</option>
+        </select>
+
+        <img class="dog-breed-selector__image" src="" />
+
+        <button class="dog-breed-selector__button">
+          I don't like that one. Show me another.
+        </button>
       </div>
-    </div>
+    </section>
+
     <script src="app.js"></script>
   </body>
 </html>
