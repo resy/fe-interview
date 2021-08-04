@@ -37,6 +37,8 @@ Please communicate with us with any questions you might have.
 
 After revisiting the problem to be solved, I decided that I didn't need the full weight of an ember application, this can likely be tackled using vanillaJS.
 
+Styling - I like to write scss and use BEM to help keep my specificity manageable, I didn't need to add a build tool for this so I'm just running the `sass --watch` command to pick up changes. I'd also almost always use a [reset](https://meyerweb.com/eric/tools/css/reset/) to get around opinionated browser styling and let me start fresh but the layout here was simple enough that I can build this implementation without needed to worry about that.
+
 ## Todo
 
 - [] Create header
