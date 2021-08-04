@@ -6,3 +6,14 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+.header-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.header-container__logo,
+.header-container__text {
+  margin: 0 8px;
+}
