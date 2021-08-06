@@ -48,6 +48,7 @@ $button-font: #fafafa;
 .dog-breed-selector__button {
   display: block;
   margin: 8px;
+  cursor: pointer;
 }
 
 .dog-breed-selector__button {
@@ -57,4 +58,11 @@ $button-font: #fafafa;
   padding: 16px 8px;
   border: none;
   box-shadow: 0 3px 10px $dark-gray;
+}
+
+.dog-breed-selector__button {
+  &:disabled {
+    background-color: $dark-gray;
+    cursor: not-allowed;
+  }
 }

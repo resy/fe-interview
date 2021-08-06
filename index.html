@@ -26,6 +26,7 @@
         <p class="dog-breed-selector-container__header">Ok, but which one?!</p>
 
         <select
+          onchange="getImage(this.value)"
           class="dog-breed-selector__dropdown"
           name="dog-breed-selector"
           id="breed-selector"
@@ -36,7 +37,12 @@
 
         <img id="dog-img" class="dog-breed-selector__image" src="" />
 
-        <button class="dog-breed-selector__button">
+        <button
+          onclick="getImage(event)"
+          id="moar-dogs"
+          class="dog-breed-selector__button"
+          disabled
+        >
           I don't like that one. Show me another.
         </button>
       </div>

@@ -37,6 +37,7 @@ html {
 .dog-breed-selector__button {
   display: block;
   margin: 8px;
+  cursor: pointer;
 }
 
 .dog-breed-selector__button {
@@ -46,6 +47,11 @@ html {
   padding: 16px 8px;
   border: none;
   box-shadow: 0 3px 10px #808080;
+}
+
+.dog-breed-selector__button:disabled {
+  background-color: #808080;
+  cursor: not-allowed;
 }
 
 /*# sourceMappingURL=app.css.map */
