@@ -22,7 +22,7 @@ let getImage = (arg) => {
       return;
     }
   }
-  debugger;
+
   fetch(imgUrl)
     .then((resp) => resp.json())
     .then(function (data) {
